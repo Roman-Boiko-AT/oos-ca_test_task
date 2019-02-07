@@ -1,7 +1,5 @@
 # Documentation
 
-Cypress test framework located in e2e directory.
-
 ## Setup
 
 `yarn install`
