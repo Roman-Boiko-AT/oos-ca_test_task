@@ -1,3 +1,6 @@
+
+# Test Framework including test cases for task placed as separate solution in 'e2e' folder.
+
 # CREW APPLICATION
 
 Simple application which represents dashboard with candidates.
