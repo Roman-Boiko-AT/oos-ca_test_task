@@ -1,0 +1,7 @@
+{
+  "baseUrl": "http://localhost:3000/",
+  "env": {
+	 "SOME_LOCAL_SPECIFIC_VARIABLE" : "SomeValue",
+	 "SOME_LOCAL_SPECIFIC_VARIABLE_BOOL" : true
+  }
+}

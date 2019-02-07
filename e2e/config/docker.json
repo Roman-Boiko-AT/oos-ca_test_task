@@ -1,0 +1,8 @@
+{
+  "baseUrl": "http://localhost:5000/",
+  "chromeWebSecurity": false,
+  "env": {
+	 "SOME_DOCKER_SPECIFIC_VARIABLE" : "SomeValue",
+	 "SOME_DOCKER_SPECIFIC_VARIABLE_BOOL" : true
+  }
+}

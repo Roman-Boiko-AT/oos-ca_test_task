@@ -1,0 +1,34 @@
+{
+  "name": "sample-cypress-framework",
+  "version": "1.0.0",
+  "description": "Framework for end to end testing",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open",
+    "test": "cypress run",
+    "open:docker": "cypress open --env CONFIG_FILE=docker",
+    "test:docker": "cypress run --env CONFIG_FILE=docker",
+    "format": "prettier --write cypress/**/*.ts cypress/**/*.js"
+  },
+  "author": "Roman Boiko",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@angular/common": "^6.1.7",
+    "@angular/core": "^6.1.7",
+    "@cypress/browserify-preprocessor": "^1.1.0",
+    "@cypress/snapshot": "^2.0.1",
+    "cypress": "^3.1.4",
+    "cypress-cucumber-preprocessor": "^1.4.0",
+    "prettier": "^1.14.2",
+    "tsify": "^4.0.0",
+    "typescript": "2.9.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/steps"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "moment": "^2.22.2",
+    "oidc-client": "^1.5.2"
+  }
+}

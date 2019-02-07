@@ -1,0 +1,27 @@
+{
+  "sampleOrder": {
+    "orderID": 1000000,
+    "numberProperty": 77000000,
+    "booleanProperty": false,
+    "objectProperty": {
+      "id": 19900,
+      "nullValue": null
+    },
+    "devices": [
+      {
+        "type": "Phone",
+        "name": "S1",
+        "brandName": "Meizu",
+        "characteristic": null,
+        "available": true
+      },
+      {
+        "type": "Notebook",
+        "name": "D7893",
+        "brandName": "HP",
+        "characteristic": null,
+        "available": false
+      }
+	]
+  }
+}

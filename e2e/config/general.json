@@ -1,0 +1,9 @@
+{
+  "defaultCommandTimeout": 5000,
+  "responseTimeout": 20000,
+  "requestTimeout": 40000,
+  "env": {
+    "SHARED_BETWEEN_ENV_VARIABLE1": "someValue",
+	  "SHARED_BETWEEN_ENV_VARIABLE2": false
+  }
+}
