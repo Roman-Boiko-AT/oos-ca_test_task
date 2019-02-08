@@ -32,4 +32,4 @@ or
 
 ### P.S. I have changed an App just a bit. Therefore, some tests are failed in my version, but they are passed in real one.
 
-### P.P.S Knowing that according to task description I should assume everything works properly 1 test still should fail. (as for me)
+### P.P.S Knowing that according to task description I should assume everything works properly 1 test still should fail (as for me). Pass rate more than 90% =).
